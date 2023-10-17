@@ -1,0 +1,119 @@
+body {
+    background-image: url(./assets/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    section {
+        background-image: url(./assets/images/tree-header.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 15px;
+        border: 1px solid #cccc67;
+        box-shadow: 0 0 2px 3px #e6e6aabb;
+        h1 {
+            font-size: 2.5rem;
+            color: #cccc67;
+        }
+
+        p{
+            color: #cccc67;
+        }
+    }
+
+    article {
+        position: relative;
+        top: 85px;
+        right: 120px;
+        margin: 10px;
+
+        p {
+            font-size: 1.5rem;
+            color: #cccc67;
+
+        }
+    }
+}
+
+
+section.body {
+    margin: 45px auto;
+    height: 335px;
+    border: 1px solid #cccc67;
+    box-shadow: 0 0 2px 3px #e6e6aa;
+    border-radius: 35px;
+    background-color: #0a0a0a;
+    max-width: 900px;
+
+    figure {
+        margin: 5px;
+
+        h2 {
+            display: inline;
+            font-size: 2rem;
+            color: #cccc67;
+            margin: 10px;
+        }
+
+        article.description {
+            display: flex;
+            align-items: center;
+
+            figcaption {
+                font-size: 1.2rem;
+                color: #cccc67;
+            }
+
+            img {
+                margin-left: 5px;
+                height: 250px;
+                width: 400px;
+                aspect-ratio: initial;
+                border-radius: 35px;
+            }
+        }
+    }
+
+    div {
+        display: flex;
+        justify-content: space-around;
+
+        button.former {
+            border-radius: 25px 0 0 25px;
+        }
+        button.next {
+            border-radius: 0 25px 25px 0;
+        }
+        button {
+            background-color: #333131;
+            color: #cccc67;
+            width: 140px;
+            padding: 5px;
+            font-size: 1rem;
+            box-shadow: 0 0 2px 2px #cccc67;
+        }
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 98vw;
+    margin: 5px;
+    background-color: #0a0a0a;
+    padding: 2px 5px 2px 5px;
+    color: #cccc67;
+    border-radius: 15px;
+    border: 1px solid #cccc67;
+    box-shadow: 0 0 2px 3px #e6e6aabb;
+}

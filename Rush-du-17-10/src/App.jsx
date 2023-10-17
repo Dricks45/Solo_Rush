@@ -3,7 +3,7 @@ import Datas from './assets/images/Datas';
 import HeaderWeb from './assets/components/HeaderWeb';
 import Card from './assets/components/Card';
 import ChooseCard from './assets/components/ChooseCard';
-import './App.css'
+import './style.scss';
 
 function App() {
 
@@ -33,7 +33,7 @@ function App() {
           data={Datas} />
         </div>
       </section>
-
+      <footer>&copy; Cédric Bodereau 2023</footer>
     </>
   )
 }
