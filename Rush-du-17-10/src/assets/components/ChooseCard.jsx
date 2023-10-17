@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 
 function ChooseCard (props) {
+    console.log(props)
     return (
         <>
         {props.chooseCard > 0 && <button className="former" onClick={props.handleFormer}>Précédent</button> }
@@ -11,11 +12,10 @@ function ChooseCard (props) {
 }
 
 ChooseCard.propTypes = {
-    data: PropTypes.shape({
-        chooseCard: PropTypes.string.isRequired,
-        handleFormer: PropTypes.string.isRequired,
-        handleNext: PropTypes.string.isRequired,
-    }).isRequired,
+    chooseCard: PropTypes.any.isRequired,
+    handleFormer: PropTypes.string.isRequired,
+    handleNext: PropTypes.string.isRequired,
+    data: PropTypes.array.isRequired,
 }
 
 export default ChooseCard;
